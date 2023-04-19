@@ -18,9 +18,9 @@ function Programs() {
           Programs
         </h1>
       </div>
-      <div className=" lg:h-[50vh] lg:w-[70%] mx-auto">
-        <h1 className="uppercase  mt-[5%] text-[60px] font-thin ">It’s the place you can learn <br /> & grow </h1>
-        <p className="pt-3">The University program has been built with a goal of educating students' individuals, while also improving the lives of their communities. It is designed with a holistic education in mind. The program is designed to be flexible, empowering you to choose your own pathway to success.</p>
+      <div className=" lg:h-[50vh] lg:w-[60%] mx-auto my-20">
+        <h1 className="uppercase  mt-[5%] text-3xl text-center lg:text-left lg:!text-[60px] font-thin lg:!leading-[4rem]">It’s the place you can learn & grow </h1>
+        <p className="pt-3 text-center lg:text-left ">The University program has been built with a goal of educating students' individuals, while also improving the lives of their communities. It is designed with a holistic education in mind. The program is designed to be flexible, empowering you to choose your own pathway to success.</p>
       </div>
       <Footer/>
     </div>

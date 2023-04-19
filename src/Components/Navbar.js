@@ -7,18 +7,18 @@ function Navbar() {
   return (
     <div className="h-[7vh] bg-red-700 grid grid-cols-3 rounded-b-3xl">
       <div className="col-span-2 font-semibold text-white text-center my-auto cursor-pointer">
-        <Link to="/" className="px-2 text-[10px] lg:text-[18px]">ABOUT</Link>
-        <Link to="/program" className="px-2 text-[10px] lg:text-[18px]">PROGRAMS</Link>
-        <span className="px-2 text-[10px] lg:text-[18px]">JOIN AURAK</span>
-        <span className="px-2 text-[10px] lg:text-[18px]">STUDENT SUPPORT</span>
-        <span className="px-2 text-[10px] lg:text-[18px]">ALUMNI</span>
-        <span className="px-2 text-[10px] lg:text-[18px]">TEACHING</span>
-        <span className="px-2 text-[10px] lg:text-[18px]">REASEARCH</span>
+        <Link to="/" className="px-2 text-[10px] lg:text-[18px] hover:rounded hover:bg-red-600">ABOUT</Link>
+        <Link to="/program" className="px-2 text-[10px] lg:text-[18px] hover:rounded hover:bg-red-600">PROGRAMS</Link>
+        <span className="px-2 text-[10px] lg:text-[18px] hover:rounded hover:bg-red-600">JOIN AURAK</span>
+        <span className="px-2 text-[10px] lg:text-[18px] hover:rounded hover:bg-red-600">STUDENT SUPPORT</span>
+        <span className="px-2 text-[10px] lg:text-[18px] hover:rounded hover:bg-red-600">ALUMNI</span>
+        <span className="px-2 text-[10px] lg:text-[18px] hover:rounded hover:bg-red-600">TEACHING</span>
+        <span className="px-2 text-[10px] lg:text-[18px] hover:rounded hover:bg-red-600">REASEARCH</span>
       </div>
-      <div className="font-semibold text-white text-center my-auto">
-        <span className="px-2 text-[10px] lg:text-[18px]">MEDIA</span>
-        <span className="px-2 text-[10px] lg:text-[18px]">CONTACT</span>
-        <span className="p-1 bg-white rounded-full">
+      <div className="font-semibold text-white text-center my-auto cursor-pointer">
+        <span className="px-2 text-[10px] lg:text-[18px] hover:rounded hover:bg-red-600">MEDIA</span>
+        <span className="px-2 text-[10px] lg:text-[18px] hover:rounded hover:bg-red-600">CONTACT</span>
+        <span className="p-1 px-2 bg-white rounded-full">
           <FontAwesomeIcon
             icon={faMagnifyingGlass}
             style={{ color: "#000000" }}
