@@ -1,7 +1,7 @@
 import React from "react";
 import banner from "../images/secondary.png";
 import "../App.css";
-function Banner() {
+function Banner({img}) {
   return (
     <div>
       <div className="absolute">
@@ -16,7 +16,7 @@ function Banner() {
         <div className="flex">
       <h1 className="relative text-4xl font-black  text-white h-[75vh] pt-[55vh] pl-[10vw] ">
         YOUR FUTURE STARTS <br /> HERE 
-        <h2 className="text-[12px] lg:visible invisible hr-lines">Read more</h2>
+        <h2 className="text-[12px] lg:visible invisible ">Read more</h2>
       </h1>
         </div>
         

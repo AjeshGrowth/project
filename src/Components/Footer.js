@@ -52,31 +52,31 @@ function Footer() {
           <div className="lg:grid lg:grid-cols-5 mt-5 col-span-1 mr-[40%] hidden lg:block">
             <div>
               <i
-                class="fa-brands fa-facebook p-2 border-2 border-white rounded-full"
+                className="fa-brands fa-facebook p-2 border-2 border-white rounded-full"
                 style={{ color: "white" }}
               ></i>
             </div>
             <div>
               <i
-                class="fa-brands fa-twitter p-2 border-2 border-white rounded-full"
+                className="fa-brands fa-twitter p-2 border-2 border-white rounded-full"
                 style={{ color: "white" }}
               ></i>
             </div>
             <div>
               <i
-                class="fa-brands fa-youtube p-2 border-2 border-white rounded-full"
+                className="fa-brands fa-youtube p-2 border-2 border-white rounded-full"
                 style={{ color: "white" }}
               ></i>
             </div>
             <div>
               <i
-                class="fa-brands fa-linkedin p-2 border-2 border-white rounded-full"
+                className="fa-brands fa-linkedin p-2 border-2 border-white rounded-full"
                 style={{ color: "white" }}
               ></i>
             </div>
             <div>
               <i
-                class="fa-brands fa-instagram p-2 border-2 border-white rounded-full"
+                className="fa-brands fa-instagram p-2 border-2 border-white rounded-full"
                 style={{ color: "white" }}
               ></i>
             </div>
@@ -95,9 +95,11 @@ function Footer() {
             </a>
           </div>
         </div>
-        
-        <p className="text-white w-[40vw] ml-[8%] hidden lg:block">Copyright © 2022 American University of Ras Al Khaimah. All rights
-        reserved</p>
+
+        <p className="text-white w-[40vw] ml-[8%] hidden lg:block">
+          Copyright © 2022 American University of Ras Al Khaimah. All rights
+          reserved
+        </p>
       </div>
       <div>
         <div className="p-10">

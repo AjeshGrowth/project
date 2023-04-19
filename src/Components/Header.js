@@ -8,13 +8,14 @@ function Header() {
     <div className="lg:h-[15vh] bg-white lg:grid lg:grid-cols-3">
       <img className="pl-[20%] pt-[2%] " src={vector} alt="" />
       <div className="my-auto  flex">
-        <FontAwesomeIcon icon={faGlobe} className="px-5 text-2xl lg:visible invisible" />
-        <div className="flex lg:py-0 py-3 px-5">
-          <FontAwesomeIcon icon={faUser} className="px-3" />
-          <p className="text-[10px] lg:text-[18px]">STUDENTS PORTAL</p>
+        <FontAwesomeIcon icon={faGlobe} className="px-2 text-2xl lg:visible invisible" />
+        <span className="rotate-90 text-2xl">></span>
+        <div className="flex lg:py-0 py-3 px-5 cursor-pointer">
+          <FontAwesomeIcon icon={faUser} className="px-3 lg:pt-1" />
+          <p className="text-[10px] lg:text-[18px] ">STUDENTS PORTAL</p>
         </div>
-        <div className="flex lg:py-0 py-3">
-          <FontAwesomeIcon icon={faUser} className="px-3" />
+        <div className="flex lg:py-0 py-3 cursor-pointer">
+          <FontAwesomeIcon icon={faUser} className="px-3  lg:pt-1" />
           <p className="text-[10px] lg:text-[18px]">FACULTY PORTAL</p>
         </div>
       </div>
